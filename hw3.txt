@@ -1,0 +1,27 @@
+***Original code, before making changes***
+
+Average runtime in seconds (random arrays): 0.01602
+Average runtime in seconds (already-sorted arrays): Stack Overflow
+
+
+***Modify quicksort to randomly shuffle the array before sorting***
+
+Average runtime in seconds (random arrays): 0.02023
+Average runtime in seconds (already-sorted arrays): 0.01992
+
+
+***Modify quicksort to use insertion sort for small subarrays***
+
+Threshold = 8
+Average runtime in seconds (random arrays): 0.01797
+
+Threshold = 32
+Average runtime in seconds (random arrays): 0.01641
+
+Threshold = 64
+Average runtime in seconds (random arrays): 0.01625
+
+Threshold = 1024
+Average runtime in seconds (random arrays): 0.03488
+
+The best threshold(s) seems to be 32 & 64
